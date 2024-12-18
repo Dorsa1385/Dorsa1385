@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/96acc6ee91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <img src="images/my image.jpg" class="profiel">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>My Personal Portfolio</p>
+            <h1>Hi, I'm <span>Dorsa</span><br>Mehrdadian from Iran</h1>
+        </div>
+    </div>
+</div>
+
+<p style="font-size: 22px; text-align: left; color: white; margin-left: 70px; margin-top: 5px;">My Interview with Groupmate about choosing "Software Developer education"</p>
+
+<table style="border-collapse: collapse; width: 50%; margin: 100px auto 20px 92px; font-size: 14px;">
+    <!-- koperij (3 kolommen) -->
+    <tr>
+      <th style="padding: 6px; border: 3px solid red; background-color: red;">Question</th>
+      <th style="padding: 6px; border: 3px solid red; background-color: red;">Answer</th>
+      <th style="padding: 6px; border: 3px solid red; background-color: red;">Explanation</th>
+    </tr>
+
+    <!-- Eerste vraag en antwoord -->
+  <tr>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 120px; word-wrap: break-word;">Do you think you will be able to find a job quickly after this education?</td>
+    <td style="padding: 6px; border: 3px solid #ccc;">No</td>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 150px; word-wrap: break-word;">The job market can be competitive and finding the right opportunity can take time.</td>
+  </tr>
+  
+  <!-- Tweede vraag en antwoord -->
+  <tr>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 150px; word-wrap: break-word;">Did advice from family and friends play a role in your choice?</td>
+    <td style="padding: 6px; border: 3px solid #ccc;">Yes</td>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 150px; word-wrap: break-word;">They offer perspectives based on their own experiences, and because they know you well, their recommendations can be based on your values and goals.</td>
+  </tr>
+
+  <!-- Derde vraag en antwoord -->
+  <tr>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 150px; word-wrap: break-word;">Are you interested in building mobile applications?</td>
+    <td style="padding: 6px; border: 3px solid #ccc;">Yes</td>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 150px; word-wrap: break-word;">It's thriller, because it offers the opportunity to create tools that can be used by people around the world.</td>
+  </tr>
+
+  <!-- Vierde vraag en antwoord -->
+  <tr>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 150px; word-wrap: break-word;">Do you find it important to be able to work remotely?</td>
+    <td style="padding: 6px; border: 3px solid #ccc;">Yes</td>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 150px; word-wrap: break-word;">It offers work-life balance and opportunities to collaborate with people globally.</td>
+  </tr>
+
+  <!-- Vijfde vraag en antwoord -->
+  <tr>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 150px; word-wrap: break-word;">Have you been interested in coding and programming since childhood?</td>
+    <td style="padding: 6px; border: 3px solid #ccc;">Yes</td>
+    <td style="padding: 6px; border: 3px solid #ccc; max-width: 150px; word-wrap: break-word;">I've always enjoyed problem solving, and coding seemed like a great way to apply that interest.</td>
+  </tr>
+</table>
+   
+<!-- -----------about---------- -->
+ <body>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+             <img src="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm an enthusiastic student learning programming. I started learning programming, because I love the idea of building something from scratch. My journey is begun 1 month with basic HTML and CSS, where I'm learning to structure a webpage and style it with color, layout and fonts. My goal is to learn making kinds of websites and also apps in the future. I find it exciting to see my skills grow as I add more features tp my projects. .</p>
+           
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Development</span><br>Web Designing and Programming</li> 
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Program and Web Design Training at Techniek College Rotterdam</li> 
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>MBO from Techniek College</li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+ <div id="services">
+     <div class="container">
+         <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+             <div>
+                 <i class="fa-solid fa-code"></i>
+                 <h2>Web Design</h2>
+                 <p> I create Web Designs that look great on devices. With using HTML and CSS I build simple user-friendly websites that reflect the style for personal portfolios</p>
+                
+             </div>
+         </div>
+     </div>
+ </div>
+<!----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Later Project</h1>
+        <div class="project-list">
+            <div class="projects">
+                <img src="images/logo.WEBP">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>9025305@student.zadkine.nl</p>
+                <p><i class="fas fa-phone-square-alt"></i>0627521536</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href=""></a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+  
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
