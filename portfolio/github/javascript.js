@@ -19,3 +19,25 @@ var tablinks = document.getElementsByClassName("tab-links");
     function closemenu(){
         sidemenu.style.right = "-200px";
     }
+    
+    const body = document.body;
+    const darkModeToggle = document.createElement('button');
+    darkModeToggle.textContent = 'Schakel Dark Mode in/uit';
+    body.appendChild(darkModeToggle);
+    
+
+    if (localStorage.getItem('darkMode') === 'enabled') {
+      body.classList.add('dark-mode');
+    }
+    
+    darkModeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+    
+    
+      if (body.classList.contains('dark-mode')) {
+        localStorage.setItem('darkMode', 'enabled');
+      } else {
+        localStorage.setItem('darkMode', 'disabled');
+      }
+    });
+    
