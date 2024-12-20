@@ -9,11 +9,25 @@
     <script src="https://kit.fontawesome.com/96acc6ee91.js" crossorigin="anonymous"></script>
 </head>
 <body>
+   <!-- Hamburger Menu Button -->
+   <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbar">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+   </button>
+
+    <header>
+        <h1 id="greeting"></h1>
+        <p id="current-time"></p>
+    </header>
+
+    <button id="darkmode">Darkmode</button>
+
 <div id="header">
-    <img src="images/my image.jpg" class="profiel">
+    <img src="github/my image.jpg" class="profiel">
     <div class="container">
         <nav>
-            <img src="images/logo.png" class="logo">
+            <img src="github/logo.png" class="logo">
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -31,14 +45,14 @@
     </div>
 </div>
 
-<p style="font-size: 22px; text-align: left; color: white; margin-left: 70px; margin-top: 5px;">My Interview with Groupmate about choosing "Software Developer education"</p>
+<p style="font-size: 22px; text-align: left; color: white; margin-left: 130px; margin-top: 5px;">My Interview with Groupmate about choosing "Software Developer education"</p>
 
-<table style="border-collapse: collapse; width: 50%; margin: 100px auto 20px 92px; font-size: 14px;">
+<table style="border-collapse: collapse; width: 55%; margin: 100px auto 20px 92px; font-size: 14px;">
     <!-- koperij (3 kolommen) -->
     <tr>
-      <th style="padding: 6px; border: 3px solid red; background-color: red;">Question</th>
-      <th style="padding: 6px; border: 3px solid red; background-color: red;">Answer</th>
-      <th style="padding: 6px; border: 3px solid red; background-color: red;">Explanation</th>
+      <th style="padding: 6px; border: 3px solid #ff004f; background-color: #ff004f;">Question</th>
+      <th style="padding: 6px; border: 3px solid #ff004f; background-color: #ff004f;">Answer</th>
+      <th style="padding: 6px; border: 3px solid #ff004f; background-color: #ff004f;">Explanation</th>
     </tr>
 
     <!-- Eerste vraag en antwoord -->
@@ -165,6 +179,14 @@
     </div>
 </div>
 
+
+<!-- Cookie melding -->
+<div id="cookie-banner" class="cookie-banner">
+    <p> This website uses cookies to improve your experience <button id="accept-cookie">Accept</button></p>
+</div>
+
+<h1>Countdown to New Year's Day</h1>
+    <div id="demo"></div>
 
 <script src="javascript.js"></script>
 </body>
